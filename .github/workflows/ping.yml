@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Curl Ping Render API
         run: |
-          curl -s --max-time 2 https://love-calculator-api.onrender.com || echo "Ping failed"
+          curl -s --max-time 10 https://love-calculator-api.onrender.com || echo "Ping failed"
